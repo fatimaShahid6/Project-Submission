@@ -1,0 +1,182 @@
+/* Global Styles */
+body {
+    background-color: #f5f7fa;
+    font-family: "Roboto", sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Ensure smooth scrolling behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Space for each section */
+  #dashboard,
+  #user-management {
+    padding: 50px 0; /* Add padding top and bottom */
+    margin-top: 7rem; /* Space between the navbar and the section */
+  }
+  
+  /* Extra space between rows */
+  .row.g-4 {
+    margin-bottom: 30px; /* Adds space between the rows */
+  }
+  
+  /* Add some space for the footer */
+  footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  /* Optional: Add extra space for the navbar */
+  .navbar {
+    margin-bottom: 40px; /* Adds space below the navbar */
+  }
+  
+  /* For larger screens, make the sections taller */
+  @media (min-width: 768px) {
+    #dashboard,
+    #user-management {
+      min-height: 500px; /* Ensure sections are taller */
+    }
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #2c3e50;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ecf0f1 !important;
+  }
+  
+  .nav-link:hover {
+    color: #1abc9c !important;
+  }
+  
+  /* #logoutBtn {
+    background-color: #e74c3c;
+    border: none;
+  } */
+  
+  #logoutBtn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Dashboard Cards */
+  .card {
+    border: 0.5px solid black;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #eaebee);
+    box-shadow: 4px 4px 10px #797a7b, -4px -4px 10px #7b7b7b;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  /* Table */
+  .table-hover tbody tr:hover {
+    background-color: #ecf0f1;
+  }
+  
+  .table-dark th {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #1abc9c;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #16a085;
+  }
+  .admin-footer {
+    margin-top: 11rem !important;
+  }
+  /* Dashboard Section */
+  
+  /* Dashboard Cards */
+  .card {
+    border: 0.5px solid black; /* Black outline around the card */
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #eaebee);
+    box-shadow: 4px 4px 10px #797a7b, -4px -4px 10px #7b7b7b;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #34495e;
+  }
+  
+  #cameraStream {
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Global Styles (relevant for the dashboard container) */
+  /* Add transition for smooth scaling */
+  section {
+    transition: transform 0.5s ease; /* Smooth scale transition */
+    transform: scale(1); /* Default scale */
+  }
+  
+  /* When a section is active, apply scaling */
+  section.scaled {
+    transform: scale(1.05); /* Slightly scale the section when active */
+  }
+  
+  /* Smooth scrolling between sections */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Additional space for sections */
+  #dashboard, #user-management {
+    padding: 50px 0;
+    margin-top: 50px;
+  }
+  
+  .row.g-4 {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .navbar {
+    margin-bottom: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    #dashboard, #user-management {
+      min-height: 500px;
+    }
+  }
